@@ -12,27 +12,27 @@
         <meta name="author" content="Clement Tsang">
       
       
-        <link rel="canonical" href="https://clementtsang.github.io/bottom/nightly/usage/general-usage/">
+        <link rel="canonical" href="https://clementtsang.github.io/bottom/nightly/contribution/development/dev_env/">
       
       
-        <link rel="prev" href="../../support/unofficial/">
+        <link rel="prev" href="../../packaging-and-distribution/">
       
       
-        <link rel="next" href="../basic-mode/">
+        <link rel="next" href="../testing/">
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.5">
     
     
       
-        <title>General Usage - bottom</title>
+        <title>Development Environment - bottom</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.7a7fce14.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7a7fce14.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.a0c5b2b5.min.css">
       
       
 
@@ -48,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -79,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#general-usage" class="md-skip">
+        <a href="#development-environment" class="md-skip">
           Skip to content
         </a>
       
@@ -97,7 +97,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="bottom" class="md-header__button md-logo" aria-label="bottom" data-md-component="logo">
+    <a href="../../.." title="bottom" class="md-header__button md-logo" aria-label="bottom" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              General Usage
+              Development Environment
             
           </span>
         </div>
@@ -213,7 +213,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../.." class="md-tabs__link">
+    <a href="../../.." class="md-tabs__link">
       Home
     </a>
   </li>
@@ -228,8 +228,40 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../support/official/" class="md-tabs__link">
+      <a href="../../../support/official/" class="md-tabs__link">
         Support
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../usage/general-usage/" class="md-tabs__link">
+        Usage
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../configuration/command-line-flags/" class="md-tabs__link">
+        Configuration
       </a>
     </li>
   
@@ -246,39 +278,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="./" class="md-tabs__link md-tabs__link--active">
-        Usage
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../configuration/command-line-flags/" class="md-tabs__link">
-        Configuration
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../contribution/issues-and-pull-requests/" class="md-tabs__link">
+      <a href="../../issues-and-pull-requests/" class="md-tabs__link md-tabs__link--active">
         Contribution
       </a>
     </li>
@@ -291,7 +291,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../../troubleshooting/" class="md-tabs__link">
+    <a href="../../../troubleshooting/" class="md-tabs__link">
       Troubleshooting
     </a>
   </li>
@@ -320,7 +320,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="bottom" class="md-nav__button md-logo" aria-label="bottom" data-md-component="logo">
+    <a href="../../.." title="bottom" class="md-nav__button md-logo" aria-label="bottom" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -351,7 +351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -395,7 +395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../support/official/" class="md-nav__link">
+      <a href="../../../support/official/" class="md-nav__link">
         Official Support
       </a>
     </li>
@@ -409,7 +409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../support/unofficial/" class="md-nav__link">
+      <a href="../../../support/unofficial/" class="md-nav__link">
         Unofficial Support
       </a>
     </li>
@@ -429,16 +429,16 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
       
       
       
@@ -447,7 +447,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Usage
@@ -458,86 +458,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          General Usage
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../usage/general-usage/" class="md-nav__link">
         General Usage
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#features" class="md-nav__link">
-    Features
-  </a>
-  
-    <nav class="md-nav" aria-label="Features">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#expansion" class="md-nav__link">
-    Expansion
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#widget-selection" class="md-nav__link">
-    Widget selection
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#key-bindings" class="md-nav__link">
-    Key bindings
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mouse-bindings" class="md-nav__link">
-    Mouse bindings
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -549,7 +474,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../basic-mode/" class="md-nav__link">
+      <a href="../../../usage/basic-mode/" class="md-nav__link">
         Basic Mode
       </a>
     </li>
@@ -594,7 +519,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../widgets/cpu/" class="md-nav__link">
+      <a href="../../../usage/widgets/cpu/" class="md-nav__link">
         CPU Widget
       </a>
     </li>
@@ -608,7 +533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../widgets/memory/" class="md-nav__link">
+      <a href="../../../usage/widgets/memory/" class="md-nav__link">
         Memory Widget
       </a>
     </li>
@@ -622,7 +547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../widgets/network/" class="md-nav__link">
+      <a href="../../../usage/widgets/network/" class="md-nav__link">
         Network Widget
       </a>
     </li>
@@ -636,7 +561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../widgets/process/" class="md-nav__link">
+      <a href="../../../usage/widgets/process/" class="md-nav__link">
         Process Widget
       </a>
     </li>
@@ -650,7 +575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../widgets/disk/" class="md-nav__link">
+      <a href="../../../usage/widgets/disk/" class="md-nav__link">
         Disk Widget
       </a>
     </li>
@@ -664,7 +589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../widgets/temperature/" class="md-nav__link">
+      <a href="../../../usage/widgets/temperature/" class="md-nav__link">
         Temperature Widget
       </a>
     </li>
@@ -678,7 +603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../widgets/battery/" class="md-nav__link">
+      <a href="../../../usage/widgets/battery/" class="md-nav__link">
         Battery Widget
       </a>
     </li>
@@ -736,7 +661,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../configuration/command-line-flags/" class="md-nav__link">
+      <a href="../../../configuration/command-line-flags/" class="md-nav__link">
         Command-line Flags
       </a>
     </li>
@@ -781,7 +706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../configuration/config-file/default-config/" class="md-nav__link">
+      <a href="../../../configuration/config-file/default-config/" class="md-nav__link">
         Default Config
       </a>
     </li>
@@ -795,7 +720,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../configuration/config-file/flags/" class="md-nav__link">
+      <a href="../../../configuration/config-file/flags/" class="md-nav__link">
         Flags
       </a>
     </li>
@@ -809,7 +734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../configuration/config-file/theming/" class="md-nav__link">
+      <a href="../../../configuration/config-file/theming/" class="md-nav__link">
         Theming
       </a>
     </li>
@@ -823,7 +748,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../configuration/config-file/layout/" class="md-nav__link">
+      <a href="../../../configuration/config-file/layout/" class="md-nav__link">
         Layout
       </a>
     </li>
@@ -837,7 +762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../configuration/config-file/data-filtering/" class="md-nav__link">
+      <a href="../../../configuration/config-file/data-filtering/" class="md-nav__link">
         Data Filtering
       </a>
     </li>
@@ -864,16 +789,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-        
-      
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
       
       
       
@@ -882,7 +807,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           Contribution
@@ -895,7 +820,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contribution/issues-and-pull-requests/" class="md-nav__link">
+      <a href="../../issues-and-pull-requests/" class="md-nav__link">
         Issues, Pull Requests, and Discussions
       </a>
     </li>
@@ -909,7 +834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contribution/documentation/" class="md-nav__link">
+      <a href="../../documentation/" class="md-nav__link">
         Documentation
       </a>
     </li>
@@ -923,7 +848,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contribution/packaging-and-distribution/" class="md-nav__link">
+      <a href="../../packaging-and-distribution/" class="md-nav__link">
         Packaging and Distribution
       </a>
     </li>
@@ -935,18 +860,18 @@
               
   
   
+    
+  
   
     
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
       
       
-        
-      
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_4" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" checked>
       
       
       
@@ -955,7 +880,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_5_4">
           <span class="md-nav__icon md-icon"></span>
           Development
@@ -966,11 +891,21 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../contribution/development/dev_env/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Development Environment
       </a>
+      
     </li>
   
 
@@ -982,7 +917,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contribution/development/testing/" class="md-nav__link">
+      <a href="../testing/" class="md-nav__link">
         Testing
       </a>
     </li>
@@ -996,7 +931,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contribution/development/logging/" class="md-nav__link">
+      <a href="../logging/" class="md-nav__link">
         Logging
       </a>
     </li>
@@ -1010,7 +945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contribution/development/build_process/" class="md-nav__link">
+      <a href="../build_process/" class="md-nav__link">
         Build Process
       </a>
     </li>
@@ -1024,7 +959,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contribution/development/deploy_process/" class="md-nav__link">
+      <a href="../deploy_process/" class="md-nav__link">
         Deploy Process
       </a>
     </li>
@@ -1053,7 +988,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../troubleshooting/" class="md-nav__link">
+      <a href="../../../troubleshooting/" class="md-nav__link">
         Troubleshooting
       </a>
     </li>
@@ -1081,131 +1016,15 @@
   
 
 
-<h1 id="general-usage"><a class="toclink" href="#general-usage">General Usage</a></h1>
-<p>You can run bottom with:</p>
-<div class="highlight"><pre><span></span><code>btm
-</code></pre></div>
-<p>For help regarding the command-line flags, use:</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># For a simple overview of flags</span>
-btm<span class="w"> </span>-h
-
-<span class="c1"># For more details</span>
-btm<span class="w"> </span>--help
-</code></pre></div>
-<p>You can also see keybinds and basic usage details in bottom by pressing <span class="keys"><kbd class="key-question">?</kbd></span>, which will open a help menu.</p>
-<h2 id="features"><a class="toclink" href="#features">Features</a></h2>
-<h3 id="expansion"><a class="toclink" href="#expansion">Expansion</a></h3>
-<p>By default, bottom is somewhat like a dashboard - a bunch of different widgets, all showing different things, and they all cram together to fit into one terminal.</p>
-<p>If you instead just want to see <em>one</em> widget - maybe you want to look at a graph in more detail, for example - you can "expand" the currently selected
-widget using the <span class="keys"><kbd class="key-e">e</kbd></span> key, which will hide all other widgets and make that widget take up all available terminal space.</p>
-<p>You can leave this state by either pressing <span class="keys"><kbd class="key-e">e</kbd></span> again or pressing <span class="keys"><kbd class="key-escape">Esc</kbd></span>.</p>
-<h3 id="widget-selection"><a class="toclink" href="#widget-selection">Widget selection</a></h3>
-<p>To allow for widget-specific keybindings and expansion, there is the idea of <em>widget selection</em> in bottom, where you can focus on a specific widget to work with it.
-This can be done with the mouse (just click on the widget of interest) or keyboard (ex: <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd>Direction</kbd></span>, see <a href="#key-bindings">Key bindings</a> for alternatives).</p>
-<h2 id="key-bindings"><a class="toclink" href="#key-bindings">Key bindings</a></h2>
-<p>These are global or common keyboard shortcuts for the application, which you can see in-app through the <span class="keys"><kbd class="key-question">?</kbd></span> shortcut.
-Note that key bindings are generally case-sensitive.</p>
-<table>
-<thead>
-<tr>
-<th>Binding</th>
-<th>Action</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span class="keys"><kbd class="key-q">q</kbd></span> , <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-c">c</kbd></span></td>
-<td>Quit</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-escape">Esc</kbd></span></td>
-<td>Close dialog windows, search, widgets, or exit expanded mode</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-r">r</kbd></span></td>
-<td>Reset display and any collected data</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-f">f</kbd></span></td>
-<td>Freeze/unfreeze updating with new data</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-question">?</kbd></span></td>
-<td>Open help menu</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-e">e</kbd></span></td>
-<td>Toggle expanding the currently selected widget</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-arrow-up">Up</kbd></span> <br/> <span class="keys"><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-arrow-up">Up</kbd></span> <br/> <span class="keys"><kbd class="key-K">K</kbd></span> <br/> <span class="keys"><kbd class="key-W">W</kbd></span></td>
-<td>Select the widget above</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-arrow-down">Down</kbd></span> <br/> <span class="keys"><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-arrow-down">Down</kbd></span> <br/> <span class="keys"><kbd class="key-J">J</kbd></span> <br/> <span class="keys"><kbd class="key-S">S</kbd></span></td>
-<td>Select the widget below</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-arrow-left">Left</kbd></span> <br/> <span class="keys"><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-arrow-left">Left</kbd></span> <br/> <span class="keys"><kbd class="key-H">H</kbd></span> <br/> <span class="keys"><kbd class="key-A">A</kbd></span></td>
-<td>Select the widget on the left</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-arrow-right">Right</kbd></span> <br/> <span class="keys"><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-arrow-right">Right</kbd></span> <br/> <span class="keys"><kbd class="key-L">L</kbd></span> <br/> <span class="keys"><kbd class="key-D">D</kbd></span></td>
-<td>Select the widget on the right</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-arrow-up">Up</kbd></span> , <span class="keys"><kbd class="key-k">k</kbd></span></td>
-<td>Move up within a widget</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-arrow-down">Down</kbd></span> , <span class="keys"><kbd class="key-j">j</kbd></span></td>
-<td>Move down within a widget</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-arrow-left">Left</kbd></span> <br/> <span class="keys"><kbd class="key-h">h</kbd></span> <br/> <span class="keys"><kbd class="key-alt">Alt</kbd><span>+</span><kbd class="key-h">h</kbd></span></td>
-<td>Move left within a widget</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-arrow-right">Right</kbd></span> <br/> <span class="keys"><kbd class="key-l">l</kbd></span> <br/> <span class="keys"><kbd class="key-alt">Alt</kbd><span>+</span><kbd class="key-l">l</kbd></span></td>
-<td>Move right within a widget</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-g">g</kbd><span>+</span><kbd class="key-g">g</kbd></span> , <span class="keys"><kbd class="key-home">Home</kbd></span></td>
-<td>Jump to the first entry</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-G">G</kbd></span> , <span class="keys"><kbd class="key-end">End</kbd></span></td>
-<td>Jump to the last entry</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-page-up">Page Up</kbd></span> , <span class="keys"><kbd class="key-page-down">Page Down</kbd></span></td>
-<td>Scroll up/down a table by a page</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">u</kbd></span></td>
-<td>Scroll up a table by half a page</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-d">d</kbd></span></td>
-<td>Scroll down a table by half a page</td>
-</tr>
-</tbody>
-</table>
-<h2 id="mouse-bindings"><a class="toclink" href="#mouse-bindings">Mouse bindings</a></h2>
-<table>
-<thead>
-<tr>
-<th>Binding</th>
-<th>Action</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span class="keys"><kbd class="key-left-button">Left Button</kbd></span></td>
-<td>Selects the widget</td>
-</tr>
-</tbody>
-</table>
+<h1 id="development-environment"><a class="toclink" href="#development-environment">Development Environment</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This section is currently WIP.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This section is intended for people who wish to work on/build/distribute bottom, not general users.</p>
+</div>
 
 
 
@@ -1248,10 +1067,10 @@ Note that key bindings are generally case-sensitive.</p>
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.expand", "navigation.instant", "navigation.sections", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "stable", "provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.top", "navigation.expand", "navigation.instant", "navigation.sections", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "stable", "provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.407015b8.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.407015b8.min.js"></script>
       
     
   </body>
